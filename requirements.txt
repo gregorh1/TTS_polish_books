@@ -1,0 +1,20 @@
+# Core TTS - Working versions verified
+TTS==0.22.0
+torch==2.1.0  # Compatible version (2.6+ has breaking changes)
+torchaudio==2.1.0
+
+# Text Processing
+nltk==3.8.1
+openai>=1.0.0
+
+# AI Models - Compatible version
+transformers==4.33.0  # Required for TTS compatibility
+
+# Optional: for local models
+# ollama  # Uncomment if using local Ollama models
+
+# Data handling
+numpy>=1.21.0
+
+# Environment management
+python-dotenv>=1.0.0
